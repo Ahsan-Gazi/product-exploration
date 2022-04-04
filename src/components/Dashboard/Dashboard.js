@@ -52,7 +52,7 @@ const Dashboard = () => {
 
         <Container>
   <Row>
-    <Col lg={6} md={6} sm={12}>
+    <Col  sm={6}>
     <LineChart width={800} height={450} data={data}>
     <Line dataKey={'investment'}></Line>
     <Line dataKey={'sell'}></Line>
@@ -61,7 +61,7 @@ const Dashboard = () => {
     <YAxis/>
   </LineChart>
     </Col>
-    <Col lg={6} md={6} sm={12}>
+    <Col sm={6}>
     <BarChart width={800} height={450} data={data}>
     <CartesianGrid strokeDasharray="3 3" />
     <XAxis dataKey="month" />
