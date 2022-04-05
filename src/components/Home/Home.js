@@ -29,6 +29,10 @@ const Home = () => {
                     <p>Video:<span>2160p@30fps, 1080p@60fps, 1080p@30fps (gyro-EIS), 720p@960fps</span></p>
                     <p><span></span></p>
                      </div>
+                     
+             </div>
+             <div>
+             <button className='btnLive'>Live demo</button>
              </div>
 
             <div>
