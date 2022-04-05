@@ -9,9 +9,9 @@ const Users = ({user}) => {
             <img src={img} alt=''/>
             </div>
            <div>
-           <h2>{name}</h2>
-           <h2>{review}</h2>
-            <h2>{ratings}</h2>
+           <h2>Name: {name}</h2>
+           <h2>Review: {review}</h2>
+            <h2>Ratings: {ratings}</h2>
            </div>
            
             
