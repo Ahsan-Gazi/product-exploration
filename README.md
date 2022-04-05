@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+
+# product-exploration
+Live web site link [https://github.com/programming-hero-web-course-4/product-analysis-website-Ahsan-Gazi)]
+(https://github.com/programming-hero-web-course-4/product-analysis-website-Ahsan-Gazi).
+
+* Added 8 User Review in Review Page
+* Added Bar Chart,Piechart, line chart in Dashboard Page
+* Added button in home page to go see all reviews in review page 
+* Added 2 Question and Answer in Blogs Page
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
