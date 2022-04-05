@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const Dashboard = () => {
     const data=[
@@ -53,6 +53,7 @@ const Dashboard = () => {
         <Container>
   <Row>
     <Col  sm={6}>
+        <h2>Monthly Investment</h2>
     <LineChart width={800} height={450} data={data}>
     <Line dataKey={'investment'}></Line>
     <Line dataKey={'sell'}></Line>
@@ -62,15 +63,23 @@ const Dashboard = () => {
   </LineChart>
     </Col>
     <Col sm={6}>
+        <h2>monthly Selling</h2>
     <BarChart width={800} height={450} data={data}>
     <CartesianGrid strokeDasharray="3 3" />
     <XAxis dataKey="month" />
     <YAxis/>
     <Tooltip />
     <Legend/>
-    <Bar dataKey={'investment'}/>
+    {/* <Bar dataKey={'investment'}/> */}
         <Bar dataKey={'sell'}/>
     </BarChart>
+        </Col>
+        <Col>
+        <h2>Monthly revenue</h2>
+        <PieChart width={730} height={250}>
+  <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
+  <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
+</PieChart>
         </Col>
   </Row>
 
