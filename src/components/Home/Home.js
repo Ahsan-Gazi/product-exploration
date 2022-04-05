@@ -22,7 +22,7 @@ const Home = () => {
                     <div>
                          <img  src={image1} alt=''/>
                     </div>
-                     <div>
+                     <div className='descript'>
                          <h2>Camera Description</h2>
                     <p>Triple:<span>40 MP, f/1.8, 27mm, 1/1.7", OIS,8 MP</span></p>
                     <p>Features:<span>	Leica optics, LED flash, HDR, panorama</span></p>

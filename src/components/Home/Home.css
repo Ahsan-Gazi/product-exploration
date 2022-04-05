@@ -1,12 +1,21 @@
 
 .seeAllPage{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     color: green;
+    
 }
 .staticImg{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: auto;
     display: flex;
     text-align: center;
+}
+
+.descript{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 5px;
+    background-color: gray;
+    
 }
 
 

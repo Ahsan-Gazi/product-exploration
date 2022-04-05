@@ -1,12 +1,13 @@
 
 # product-exploration
-Live web site link [https://github.com/programming-hero-web-course-4/product-analysis-website-Ahsan-Gazi)]
-(https://github.com/programming-hero-web-course-4/product-analysis-website-Ahsan-Gazi).
+Live web site link [https://product-exploration.netlify.app/)]
+(https://product-exploration.netlify.app/).
 
 * Added 8 User Review in Review Page
 * Added Bar Chart,Piechart, line chart in Dashboard Page
 * Added button in home page to go see all reviews in review page 
 * Added 2 Question and Answer in Blogs Page
+* Added About page where user can find details about us
 
 
 ## Getting Started with Create React App
